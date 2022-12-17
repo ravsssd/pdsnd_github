@@ -17,7 +17,8 @@ weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday',
 def choice(prompt, choices=('y', 'n')):
     """Return a valid input from the user given an array of possible answers.
     """
-
+    print("hello")
+    print("welcome")
     while True:
         choice = input(prompt).lower().strip()
         # terminate the program if the input is end
